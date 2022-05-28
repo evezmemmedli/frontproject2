@@ -1,0 +1,182 @@
+@import "assets/scss/utilities/colors.scss";
+.top-foot {
+    background-color:#f0f0f0;
+    padding: 40px 0;
+    .container {
+      .row {
+        flex-wrap:wrap;
+        .my-account {
+            padding-right: 25px;
+          .account {
+            font-size: 18px;
+            font-weight: 500;
+            padding-bottom: 26px;
+          }
+          .account-details {
+            color: $descColor;
+            > div {
+              margin-bottom: 10px;
+            }
+          }
+        }
+        .categories-block {
+          .category {
+            font-size: 20px;
+            color: $titleColor;
+            font-weight: bold;
+            ul {
+              padding: 0;
+             margin-top: 15px;
+             transition: 0.3s all;
+              li {
+                font-size: 16px;
+                margin-bottom: 6px;
+                transition: 0.5s all;
+
+                &:hover{
+                  margin-left: 10px;
+
+
+                }
+                &:hover a{
+                  color: #e3a51e;
+                }
+  
+                a {
+                  font-size: 18px;
+                  color: $titleColor;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+        }
+        .informations-block{
+          .information {
+            font-size: 20px;
+            color: $titleColor;
+            font-weight: bold;
+            ul {
+              padding: 0;
+              margin-top: 15px;
+              transition: 0.3s all;
+  
+              li {
+                font-size: 16px;
+                margin-bottom: 6px;
+                transition: 0.5s all;
+
+                &:hover{
+                  margin-left: 10px;
+
+
+                }
+                &:hover a{
+                  color: #e3a51e;
+                }
+                a {
+                  font-size: 18px;
+                  color: $titleColor;
+                  font-weight: 400;
+
+
+                }
+              }
+            }
+          }
+        }
+        .quick-links-block{
+          .quick-link{
+            padding-bottom: 10px;
+            font-size: 20px;
+            color: $titleColor;
+            font-weight: bold;
+            ul {
+              padding: 0;
+              margin-top: 15px;
+              transition: 0.3s all;
+              li {
+                margin-bottom: 6px;
+                font-size: 16px;
+                transition: 0.5s all;
+                &:hover{
+                  margin-left: 10px;
+
+
+                }
+                &:hover a{
+                  color: #e3a51e;
+                }
+                a {
+                  font-size: 18px;
+                  color: $titleColor;
+                  font-weight: 400;
+                }
+              }
+            }
+          }
+        }
+  
+      }
+    }
+  }
+  
+  
+  .bottom-foot{
+    background-color: #e4e4e4;
+    padding: 16px 0;
+  
+    .footer-bottom-blocks{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      margin: 0 -15px;
+      .footer-bottom-block{
+        padding: 0 15px;
+      }
+    }
+    .copy-right{
+      font-size: 14px;
+  
+  
+    }
+    .copy-icons{
+      ul{
+        margin: 0;
+        padding: 0;
+        li{
+          margin-right: 15px;
+          a{
+            color: $descColor;
+            transition: 0.3s all;
+  
+            &:hover{
+              color: #e3a51e;
+            }
+          }
+        }
+        .bezmargin{
+          margin-right: 0 !important;
+        }
+      }
+    }
+  }
+  @media(max-width: 650px){
+    .footer-bottom-blocks{
+      justify-content: center !important;
+      text-align: center;
+    }
+  
+    .banner-img {
+      background-color: white !important;
+    img{
+      margin-bottom: 10px;
+      
+    }
+   
+  }
+  .ss2{
+    margin-top: 10px;
+  }
+  
+  }
